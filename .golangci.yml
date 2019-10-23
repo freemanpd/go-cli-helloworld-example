@@ -1,0 +1,35 @@
+---
+run:
+  concurrency: 1
+  deadline: 5m
+  # skip-dirs:
+  #   - dependencies/*
+  #   - contrib
+  #   - test/e2e
+  #   - docs
+  #   - test/
+  #   - tracing
+linters:
+  disable-all: true
+  enable:
+    - bodyclose
+    - deadcode
+    - depguard
+    - errcheck
+    - gofmt
+    - gosimple
+    - govet
+    - ineffassign
+    - nakedret
+    - staticcheck
+    - structcheck
+    - typecheck
+    - unused
+    - varcheck
+    - golint
+    - gosec
+    - interfacer
+    - scopelint
+    - stylecheck
+    - unconvert
+    - unparam
