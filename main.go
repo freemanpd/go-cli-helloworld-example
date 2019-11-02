@@ -14,7 +14,7 @@
 
 package main
 
-import "cmd"
+import "github.com/freemanpd/go-cli-helloworld-example/cmd"
 
 func main() {
 	cmd.Execute()
