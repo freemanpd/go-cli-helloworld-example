@@ -7,10 +7,12 @@ A simple GO ["Hello, World!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_
 1. GO 1.13+
 
 ## Installation
-1. mkdir $HOME/src
-1. cd $HOME/src
-1. git clone git@github.com:freemanpd/go-cli-helloworld-example.git
-1. go install --tags extended
+```
+mkdir $HOME/src
+cd $HOME/src
+git clone git@github.com:freemanpd/go-cli-helloworld-example.git
+go install
+```
 
 ## Run application
 go run main.go say
