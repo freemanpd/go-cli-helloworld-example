@@ -15,4 +15,4 @@ go install
 ```
 
 ## Run application
-go run main.go say
+```go run main.go hello```

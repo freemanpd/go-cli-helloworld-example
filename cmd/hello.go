@@ -22,7 +22,7 @@ import (
 
 // sayCmd represents the say command
 var sayCmd = &cobra.Command{
-	Use:   "say",
+	Use:   "hello",
 	Short: "An example CLI for Helloworlding",
 	Long: `A "Hello, World!" program generally is a computer program that outputs or displays 
 	the message "Hello, World!". Such a program is very simple in most programming languages,
