@@ -14,7 +14,7 @@
 
 package main
 
-import "helloworld/cmd"
+import "cmd"
 
 func main() {
 	cmd.Execute()
