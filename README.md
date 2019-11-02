@@ -7,7 +7,10 @@ A simple GO ["Hello, World!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_
 1. GO 1.13+
 
 ## Installation
-1. go get github.com/freemanpd/go-cli-helloworld-example
+1. mkdir $HOME/src
+1. cd $HOME/src
+1. git clone git@github.com:freemanpd/go-cli-helloworld-example.git
+1. go install --tags extended
 
 ## Run application
-helloworld say
+go run main.go say
