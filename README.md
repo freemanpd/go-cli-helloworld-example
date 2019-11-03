@@ -16,3 +16,11 @@ go install
 
 ## Run application
 ```go run main.go hello```
+
+## Global usage
+```
+go build main.go
+mv main /usr/local/bin/hello
+hello hello
+
+```
